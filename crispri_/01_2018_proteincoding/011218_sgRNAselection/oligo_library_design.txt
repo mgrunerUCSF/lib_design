@@ -1,0 +1,31 @@
+	###all sequences are 5'->3' unless otherwise indicated
+##JY 010918
+
+5' adapter
+ATTTTGCCCCTGGTTCTT
+
+3' adapter
+CCAGTTCATTTCTTAGGG
+
+###taken from 'adapter 1' from 'library_adapters.xlsx'
+
+BstXI site from pJY17020 (5' to protospacer)
+CCACCTTGTTG
+
+BlpI site from pJY17020 (3' to protospacer)
+GCTAAGCTG
+
+3' addition prior to BlpI site (sgRNA requirement)
+gtttaaga
+
+#####construction diagram
+
+[5'adapter][BstXI_site][protospacer][3'addition][BlpI_site][3'adapter]
+ATTTTGCCCCTGGTTCTT---CCACCTTGTTG---[protospacer]---gtttaaga---GCTAAGCTG---CCAGTTCATTTCTTAGGG
+ATTTTGCCCCTGGTTCTTCCACCTTGTTG[protospacer]gtttaagaGCTAAGCTGCCAGTTCATTTCTTAGGG
+
+
+
+
+
+
